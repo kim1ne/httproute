@@ -38,3 +38,10 @@ $match = $dispatcher->match;
 $className = $dispatcher->className;
 $action = $dispatcher->action;
 ```
+
+### Create Controller
+
+```php
+$controller = new $className();
+$controller->$action(...$match);
+```
