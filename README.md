@@ -3,6 +3,8 @@
 ```php
 use Kernel\Route\Route;
 
+$route = new Kernel\Route\Route();
+
 $route->get('/', [Controller::class]);
 // $route->post('/', [Controller::class]);
 // $route->put('/', [Controller::class]);
