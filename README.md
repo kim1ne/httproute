@@ -14,17 +14,17 @@ $route->get('/', [Controller::class]);
 
 public function __invoke() 
 {
-// code...
+    // code...
 }
 ```
 
 ```php
 
-$route->get('/news/(\w+)', [Controller::class]);
+$route->get('/news/(\w+)', [Controller::class, 'get']);
 
-public function __invoke(int $id) 
+public function get(int $id) 
 {
-	echo $id;
+    echo $id;
 }
 ```
 
