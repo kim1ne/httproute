@@ -11,6 +11,7 @@ $route->get('/', [Controller::class]);
 // $route->head('/', [Controller::class]);
 // $route->patch('/', [Controller::class]);
 // $route->options('/', [Controller::class]);
+// $route->delete('/', [Controller::class]);
 
 public function __invoke() 
 {
